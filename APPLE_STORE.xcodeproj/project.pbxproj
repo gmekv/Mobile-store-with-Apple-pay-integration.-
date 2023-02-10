@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5208ABE42992A5D600CE8C2B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5208ABE32992A5D600CE8C2B /* SDWebImageSwiftUI */; };
+		5208ABE62992F8D800CE8C2B /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5208ABE52992F8D800CE8C2B /* CartButton.swift */; };
+		521376512993892400174C36 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521376502993892300174C36 /* CartView.swift */; };
+		52137653299389E800174C36 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52137652299389E800174C36 /* CartManager.swift */; };
+		521376552993A2B100174C36 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521376542993A2B100174C36 /* ProductRow.swift */; };
+		521376572993BD8700174C36 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521376562993BD8700174C36 /* PaymentButton.swift */; };
+		5213765A2993CD2E00174C36 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521376592993CD2E00174C36 /* PaymentHandler.swift */; };
+		527CD3BD298BE1C700FB9C4F /* APPLE_STOREApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD3BC298BE1C700FB9C4F /* APPLE_STOREApp.swift */; };
+		527CD3BF298BE1C700FB9C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD3BE298BE1C700FB9C4F /* ContentView.swift */; };
+		527CD3C1298BE1CA00FB9C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527CD3C0298BE1CA00FB9C4F /* Assets.xcassets */; };
+		527CD3C4298BE1CA00FB9C4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527CD3C3298BE1CA00FB9C4F /* Preview Assets.xcassets */; };
+		527CD3CC298BE73400FB9C4F /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD3CB298BE73400FB9C4F /* ProductsModel.swift */; };
+		527CD3CE298BE73A00FB9C4F /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD3CD298BE73A00FB9C4F /* ProductViewModel.swift */; };
+		527CD3D0298BF11500FB9C4F /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD3CF298BF11500FB9C4F /* ProductCard.swift */; };
+		527CD3D2298C0B2700FB9C4F /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CD3D1298C0B2700FB9C4F /* PreviewData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5208ABE52992F8D800CE8C2B /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		521376502993892300174C36 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		52137652299389E800174C36 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		521376542993A2B100174C36 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		521376562993BD8700174C36 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		521376582993CCC900174C36 /* APPLE_STORE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APPLE_STORE.entitlements; sourceTree = "<group>"; };
+		521376592993CD2E00174C36 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		527CD3B9298BE1C700FB9C4F /* APPLE_STORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APPLE_STORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527CD3BC298BE1C700FB9C4F /* APPLE_STOREApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPLE_STOREApp.swift; sourceTree = "<group>"; };
+		527CD3BE298BE1C700FB9C4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		527CD3C0298BE1CA00FB9C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527CD3C3298BE1CA00FB9C4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		527CD3CB298BE73400FB9C4F /* ProductsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		527CD3CD298BE73A00FB9C4F /* ProductViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		527CD3CF298BF11500FB9C4F /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		527CD3D1298C0B2700FB9C4F /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527CD3B6298BE1C700FB9C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5208ABE42992A5D600CE8C2B /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5208ABE72992F8DE00CE8C2B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5208ABE52992F8D800CE8C2B /* CartButton.swift */,
+				527CD3CF298BF11500FB9C4F /* ProductCard.swift */,
+				521376542993A2B100174C36 /* ProductRow.swift */,
+				521376562993BD8700174C36 /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5213764F2993865E00174C36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				527CD3BE298BE1C700FB9C4F /* ContentView.swift */,
+				521376502993892300174C36 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		527CD3B0298BE1C700FB9C4F = {
+			isa = PBXGroup;
+			children = (
+				527CD3BB298BE1C700FB9C4F /* APPLE_STORE */,
+				527CD3BA298BE1C700FB9C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527CD3BA298BE1C700FB9C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527CD3B9298BE1C700FB9C4F /* APPLE_STORE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527CD3BB298BE1C700FB9C4F /* APPLE_STORE */ = {
+			isa = PBXGroup;
+			children = (
+				521376582993CCC900174C36 /* APPLE_STORE.entitlements */,
+				527CD3BC298BE1C700FB9C4F /* APPLE_STOREApp.swift */,
+				5213764F2993865E00174C36 /* Views */,
+				5208ABE72992F8DE00CE8C2B /* Components */,
+				52A5D6212996352A00467E04 /* ViewModel */,
+				52A5D6222996353F00467E04 /* Model */,
+				527CD3C0298BE1CA00FB9C4F /* Assets.xcassets */,
+				527CD3C2298BE1CA00FB9C4F /* Preview Content */,
+			);
+			path = APPLE_STORE;
+			sourceTree = "<group>";
+		};
+		527CD3C2298BE1CA00FB9C4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				527CD3C3298BE1CA00FB9C4F /* Preview Assets.xcassets */,
+				527CD3D1298C0B2700FB9C4F /* PreviewData.swift */,
+				52137652299389E800174C36 /* CartManager.swift */,
+				521376592993CD2E00174C36 /* PaymentHandler.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52A5D6212996352A00467E04 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				527CD3CD298BE73A00FB9C4F /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52A5D6222996353F00467E04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527CD3CB298BE73400FB9C4F /* ProductsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527CD3B8298BE1C700FB9C4F /* APPLE_STORE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527CD3C7298BE1CA00FB9C4F /* Build configuration list for PBXNativeTarget "APPLE_STORE" */;
+			buildPhases = (
+				527CD3B5298BE1C700FB9C4F /* Sources */,
+				527CD3B6298BE1C700FB9C4F /* Frameworks */,
+				527CD3B7298BE1C700FB9C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APPLE_STORE;
+			packageProductDependencies = (
+				5208ABE32992A5D600CE8C2B /* SDWebImageSwiftUI */,
+			);
+			productName = APPLE_STORE;
+			productReference = 527CD3B9298BE1C700FB9C4F /* APPLE_STORE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527CD3B1298BE1C700FB9C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					527CD3B8298BE1C700FB9C4F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 527CD3B4298BE1C700FB9C4F /* Build configuration list for PBXProject "APPLE_STORE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527CD3B0298BE1C700FB9C4F;
+			packageReferences = (
+				5208ABE22992A5D600CE8C2B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 527CD3BA298BE1C700FB9C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527CD3B8298BE1C700FB9C4F /* APPLE_STORE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527CD3B7298BE1C700FB9C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527CD3C4298BE1CA00FB9C4F /* Preview Assets.xcassets in Resources */,
+				527CD3C1298BE1CA00FB9C4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527CD3B5298BE1C700FB9C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527CD3BF298BE1C700FB9C4F /* ContentView.swift in Sources */,
+				527CD3CC298BE73400FB9C4F /* ProductsModel.swift in Sources */,
+				521376572993BD8700174C36 /* PaymentButton.swift in Sources */,
+				521376552993A2B100174C36 /* ProductRow.swift in Sources */,
+				527CD3D2298C0B2700FB9C4F /* PreviewData.swift in Sources */,
+				527CD3D0298BF11500FB9C4F /* ProductCard.swift in Sources */,
+				527CD3CE298BE73A00FB9C4F /* ProductViewModel.swift in Sources */,
+				5213765A2993CD2E00174C36 /* PaymentHandler.swift in Sources */,
+				5208ABE62992F8D800CE8C2B /* CartButton.swift in Sources */,
+				521376512993892400174C36 /* CartView.swift in Sources */,
+				52137653299389E800174C36 /* CartManager.swift in Sources */,
+				527CD3BD298BE1C700FB9C4F /* APPLE_STOREApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		527CD3C5298BE1CA00FB9C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527CD3C6298BE1CA00FB9C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527CD3C8298BE1CA00FB9C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APPLE_STORE/APPLE_STORE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"APPLE_STORE/Preview Content\"";
+				DEVELOPMENT_TEAM = SD67P42M35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gmekv.APPLE-STORE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527CD3C9298BE1CA00FB9C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APPLE_STORE/APPLE_STORE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"APPLE_STORE/Preview Content\"";
+				DEVELOPMENT_TEAM = SD67P42M35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gmekv.APPLE-STORE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527CD3B4298BE1C700FB9C4F /* Build configuration list for PBXProject "APPLE_STORE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527CD3C5298BE1CA00FB9C4F /* Debug */,
+				527CD3C6298BE1CA00FB9C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527CD3C7298BE1CA00FB9C4F /* Build configuration list for PBXNativeTarget "APPLE_STORE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527CD3C8298BE1CA00FB9C4F /* Debug */,
+				527CD3C9298BE1CA00FB9C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5208ABE22992A5D600CE8C2B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5208ABE32992A5D600CE8C2B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5208ABE22992A5D600CE8C2B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 527CD3B1298BE1C700FB9C4F /* Project object */;
+}
