@@ -1,6 +1,11 @@
 # Mobile-store-with-Apple-pay-integration.-
 Built with SwiftUI, MVVP. Integrated Apple Pay.
 Data downloaded by Combine framework and used  [third party library](https://github.com/SDWebImage/SDWebImageSwiftUI)  to show pictures in view. The data was downloaded using Combine from [here](https://dummyjson.com/products)
+
+
+
+
+
 <img src="https://user-images.githubusercontent.com/113336356/218041442-1be856de-c8f0-4cd6-a033-cf567934f0ff.png" width="300">
 
 <img src="https://user-images.githubusercontent.com/113336356/218041493-9987be5b-9ecc-480b-8d2a-85dd426b1550.png" width="300">
